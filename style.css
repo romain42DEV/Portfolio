@@ -48,7 +48,7 @@ a {
 }
 
 .bg-blanc {
-    background-color: beige;
+    background-color: #D9D9D9;
 }
 
 /* Taille */
@@ -218,6 +218,14 @@ footer {
     border-radius: 20px;
 }
 
+.border-radius-img {
+    border-radius: 20px 20px 0px 0px;
+}
+
 span {
     font-weight: bold;
+}
+
+article {
+    cursor: pointer;
 }
