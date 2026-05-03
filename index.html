@@ -27,7 +27,7 @@
         <nav>
             <ul>
                 <li><a href="">Accueil</a></li>
-                <li><a href="">Mes projets</a></li>
+                <li><a href="#projets">Mes projets</a></li>
                 <li><a href="">A propos de moi</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -67,7 +67,7 @@
 
         </section>
 
-        <section class="padding-50"> <!-- section projets -->
+        <section class="padding-50 bg-bleu" id="projets"> <!-- section projets -->
 
             <div class="container-1000">
                 
@@ -77,25 +77,27 @@
 
                     
                     <article class="w-48 bg-blanc border-radius-20"> <!-- article 1 -->
-                        <div> <!-- div image, titre et bouton -->
-                            <img src="asset/img1-.jpg" alt="projet-1" class="w-100 border-radius-img">
+                        <a href="">
+                            <div> <!-- div image, titre et bouton -->
+                                <img src="asset/img1-.jpg" alt="projet-1" class="w-100 border-radius-img">
 
-                            <div class="padding-10"> <!-- div titre et bouton -->
-                                <h3>Nom du projet</h3>
+                                <div class="padding-10"> <!-- div titre et bouton -->
+                                    <h3>Nom du projet</h3>
 
-                                <div class="flex space-between align-items-center"> <!-- div paragraphe et bouton -->
-                                    <div> <!-- div titre  -->
-                                        <p class="mt-10">Lorem ipsum dolor sit amet consectetur elit. <br> Hic molestias id quod possimus eve.</p>
+                                    <div class="flex space-between align-items-center"> <!-- div paragraphe et bouton -->
+                                        <div> <!-- div titre  -->
+                                            <p class="mt-10">Lorem ipsum dolor sit amet consectetur elit. <br> Hic molestias id quod possimus eve.</p>
+                                        </div>
+
+                                        <div> <!-- div bouton -->
+                                            <a href="" class="bouton_web">#Webdev</a>
+                                        </div>
                                     </div>
 
-                                    <div> <!-- div bouton -->
-                                        <a href="" class="bouton_web">#Webdev</a>
-                                    </div>
                                 </div>
 
                             </div>
-
-                        </div>
+                        </a>
 
                     </article>
                     
@@ -123,18 +125,21 @@
 
                     </article>
 
-                    <article> <!-- article 3 -->
+                    <article class="w-48 bg-blanc border-radius-20 mt-20"> <!-- article 3 -->
                         <div> <!-- div image, titre et bouton -->
-                            <img src="" alt="">
+                            <img src="asset/img3.jpg" alt="projet-3" class="w-100 border-radius-img">
 
-                            <div> <!-- div titre et bouton -->
-                                <div> <!-- div titre  -->
-                                    <h3>Nom du projet</h3>
-                                    <p></p>
-                                </div>
-                                
-                                <div> <!-- div bouton -->
-                                    <a href=""></a>
+                            <div class="padding-10"> <!-- div titre et bouton -->
+                                <h3>Nom du projet</h3>
+
+                                <div class="flex space-between align-items-center"> <!-- div paragraphe et bouton -->
+                                    <div> <!-- div titre  -->
+                                        <p class="mt-10">Lorem ipsum dolor sit amet consectetur elit. <br> Hic molestias id quod possimus eve.</p>
+                                    </div>
+
+                                    <div> <!-- div bouton -->
+                                        <a href="" class="bouton_web">#Webdev</a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -143,18 +148,21 @@
 
                     </article>
 
-                    <article> <!-- article 4 -->
+                    <article class="w-48 bg-blanc border-radius-20 mt-20"> <!-- article 4 -->
                         <div> <!-- div image, titre et bouton -->
-                            <img src="" alt="">
+                            <img src="asset/img4.jpg" alt="projet-4" class="w-100 border-radius-img">
 
-                            <div> <!-- div titre et bouton -->
-                                <div> <!-- div titre  -->
-                                    <h3>Nom du projet</h3>
-                                    <p></p>
-                                </div>
-                                
-                                <div> <!-- div bouton -->
-                                    <a href=""></a>
+                            <div class="padding-10"> <!-- div titre et bouton -->
+                                <h3>Nom du projet</h3>
+
+                                <div class="flex space-between align-items-center"> <!-- div paragraphe et bouton -->
+                                    <div> <!-- div titre  -->
+                                        <p class="mt-10">Lorem ipsum dolor sit amet consectetur elit. <br> Hic molestias id quod possimus eve.</p>
+                                    </div>
+
+                                    <div> <!-- div bouton -->
+                                        <a href="" class="bouton_web">#Webdev</a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -170,29 +178,40 @@
 
         </section>
 
-        <section> <!-- section qualités -->
+        <section class="padding-50"> <!-- section qualités -->
 
-            <div> <!-- container -->
+            <div class="container-1000">
                 <h2>Mes qualités</h2>
 
-                <div> <!-- div des qualités -->
+                <div class="flex space-between mt-20"> <!-- div des qualités -->
 
-                    <div>
-                        <img src="" alt="">
-                        <p>Dynamique !</p>
+                    <div class="w-20 bg-grey padding-20 border-radius-15 flex justify-content-center card"> <!-- div dynamique -->
+
+                        <div class="flex justify-content-center align-items-center">
+                            <img src="asset/dynamique.png" alt="logo-dynamique">
+                        </div>
+
+                        <div>
+                            <p>Dynamique !</p>
+                        </div>
+
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <p>Passionné</p>
+                    <div class="w-20 padding-16 border-radius-15 bg-grey flex justify-content-center align-items-center card"> <!-- div passionné -->
+
+                        <div>
+                            <i class="ph-fill ph-heart bg-black blanc border-radius-50 font-size-55 padding-10"></i>
+                            <p class="mt-20">Passionné</p>
+                        </div>
+                    
                     </div>
 
-                    <div>
+                    <div class="w-20"> <!-- div motivé -->
                         <img src="" alt="">
                         <p>Motivé</p>
                     </div>
 
-                    <div>
+                    <div class="w-20"> <!-- div écoute -->
                         <img src="" alt="">
                         <p>A l'écoute</p>
                     </div>
@@ -203,51 +222,51 @@
 
         </section>
 
-        <section> <!-- section parcours -->
+        <section class="padding-50"> <!-- section parcours -->
 
-            <div> <!-- container -->
+            <div class="container-1000">
                 <h2>Mon parcours</h2>
 
-                <div> <!-- div du parcours -->
+                <div class="flex space-between mt-50"> <!-- div du parcours -->
 
-                    <div> <!-- div 2024 -->
-                        <p>2024</p>
-                        <p>Intitulé</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti ea itaque vitae inventore cum aperiam iste delectus similique amet autem alias sed quo aliquam velit, nihil doloribus, nostrum perspiciatis?</p>
+                    <div class="w-20"> <!-- div 2024 -->
+                        <p class="bold">2024</p>
+                        <p class="mt-10 bold">Intitulé</p>
+                        <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti ea itaque vitae inventore cum aperiam iste delectus similique amet autem alias sed quo aliquam velit, nihil doloribus, nostrum perspiciatis?</p>
                     </div>
 
-                    <div> <!-- div 2023 -->
+                    <div class="w-20"> <!-- div 2023 -->
 
                         <div> <!-- Intiulé 1 -->
-                            <p>2O23</p>
-                            <p>Intitulé</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi atque accusamus obcaecati doloremque. Sequi inventore velit facere. Natus temporibus voluptas placeat nobis tenetur voluptates quidem molestiae quo cumque fugiat.</p>
+                            <p class="bold">2023</p>
+                            <p class="mt-10 bold">Intitulé</p>
+                            <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi atque accusamus obcaecati doloremque. Sequi inventore velit facere. Natus temporibus voluptas placeat nobis tenetur voluptates quidem molestiae quo cumque fugiat.</p>
                         </div>
 
                         <div> <!-- Intitulé 2 -->
-                            <p>Intitulé</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, minus, animi quae aut libero tenetur officiis obcaecati reprehenderit aspernatur et similique ex praesentium voluptas voluptatum nihil ab, pariatur debitis amet.</p>
+                            <p class="mt-10 bold">Intitulé</p>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, minus, animi quae aut libero tenetur officiis obcaecati reprehenderit aspernatur et similique ex praesentium voluptas voluptatum nihil ab, pariatur debitis amet.</p>
                         </div>
 
                     </div>
 
-                    <div> <!-- div 2022 -->
-                        <p>2022</p>
-                        <p>Intitulé</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti ea itaque vitae inventore cum aperiam iste delectus similique amet autem alias sed quo aliquam velit, nihil doloribus, nostrum perspiciatis?</p>
+                    <div class="w-20"> <!-- div 2022 -->
+                        <p class="bold">2022</p>
+                        <p class="mt-10 bold">Intitulé</p>
+                        <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti ea itaque vitae inventore cum aperiam iste delectus similique amet autem alias sed quo aliquam velit, nihil doloribus, nostrum perspiciatis?</p>
                     </div>
 
-                    <div> <!-- div 2021 -->
+                    <div class="w-20"> <!-- div 2021 -->
 
                         <div> <!-- Intiulé 1 -->
-                            <p>2O21</p>
-                            <p>Intitulé</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi atque accusamus obcaecati doloremque. Sequi inventore velit facere. Natus temporibus voluptas placeat nobis tenetur voluptates quidem molestiae quo cumque fugiat.</p>
+                            <p class="bold">2021</p>
+                            <p class="mt-10 bold">Intitulé</p>
+                            <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi atque accusamus obcaecati doloremque. Sequi inventore velit facere. Natus temporibus voluptas placeat nobis tenetur voluptates quidem molestiae quo cumque fugiat.</p>
                         </div>
 
                         <div> <!-- Intitulé 2 -->
-                            <p>Intitulé</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, minus, animi quae aut libero tenetur officiis obcaecati reprehenderit aspernatur et similique ex praesentium voluptas voluptatum nihil ab, pariatur debitis amet.</p>
+                            <p class="mt-10 bold">Intitulé</p>
+                            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, minus, animi quae aut libero tenetur officiis obcaecati reprehenderit aspernatur et similique ex praesentium voluptas voluptatum nihil ab, pariatur debitis amet.</p>
                         </div>
 
                     </div>
@@ -260,35 +279,42 @@
 
     </main>
 
-    <footer>
+    <footer class="flex justify-content-center">
 
-        <div> <!-- div footer -->
+        <div class="flex align-items-cente"> <!-- div footer -->
 
-            <div> <!-- div logo, nom et adresse mail -->
+            <div class="flex align-items-cente"> <!-- div logo, nom et adresse mail -->
 
-                <div> <!-- div logo -->
-                    <img src="" alt="">
+                <div class=""> <!-- div logo et mail -->
+                    <div class="flex align-items-center">
+                        <div> <!-- div logo -->
+                            <i class="ph-fill ph-code font-size-55"></i>
+                        </div>
+
+                        <div class="ml-5"> <!-- div nom et adresse mail -->
+                            <p>Romain</p>
+                            <p>mail@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div> <!-- div nom et adresse mail -->
-                    <p>Romain</p>
-                    <p>mail</p>
+                <div class="flex align-items-center ml-50"> <!-- div réseaux -->
+
+                    <div class="">
+                        <a href="">
+                            <i class="ph-fill ph-facebook-logo font-size-30"></i>
+                        </a>
+
+                        <a href="">
+                            <i class="ph-fill ph-instagram-logo font-size-30"></i>
+                        </a>
+
+                        <a href="">
+                            <i class="ph-fill ph-linkedin-logo font-size-30"></i>
+                        </a>
+                    </div>
+
                 </div>
-
-            </div>
-
-            <div> <!-- div réseaux -->
-                <a href="">
-                    <i></i>
-                </a>
-
-                <a href="">
-                    <i></i>
-                </a>
-
-                <a href="">
-                    <i></i>
-                </a>
 
             </div>
 
