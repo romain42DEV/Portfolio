@@ -278,22 +278,6 @@ article {
     border: 1px solid black;
 }
 
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header-right {
-  float: right;
-}
-
-
 
 
 /*CSS specifique pour les ecrans plus petits que 800px de large*/
@@ -323,15 +307,4 @@ article {
     .font-size-18 {
         font-size: 18px;
     }
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
 }
