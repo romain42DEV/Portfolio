@@ -93,8 +93,8 @@ p {
     text-align: center;
 }
 
-.font-size-30 {
-    font-size: 30px;
+.font-size-25 {
+    font-size: 25px;
 }
 
 .font-size-55 {
@@ -127,7 +127,7 @@ p {
     width: 30%;
 }
 
-.w-48{
+.medium-50{
     width: 48%;
 }
 
@@ -275,4 +275,36 @@ article {
 
 .border {
     border: 1px solid black;
+}
+
+
+
+
+/*CSS specifique pour les ecrans plus petits que 800px de large*/
+@media all and (max-width: 800px){
+    .small-90 {
+        margin-top: 20px;
+    }
+    .medium-48{
+        width: 48%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .font-size-20 {
+        font-size: 20px;
+    }
+}
+
+/*CSS specifique pour les ecrans plus petits que 500px de large*/
+@media all and (max-width: 500px) {
+    .small-100{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .small-90 {
+        margin-top: 20px;
+    }
+    .font-size-18 {
+        font-size: 18px;
+    }
 }
