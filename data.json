@@ -4,27 +4,31 @@
     "titre": "Monochrome",
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex et un footer",
     "date": "Mars 2026",
-    "site" : "https://romain42dev.github.io/monochrome/"
+    "site": "https://romain42dev.github.io/monochrome/",
+    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
   },
   {
     "id": "2",
     "titre": "Interno",
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex, une partie témoignages et un footer",
     "date": "Avril 2026",
-    "site" : "https://romain42dev.github.io/interno-romain/"
+    "site": "https://romain42dev.github.io/interno-romain/",
+    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
   },
   {
     "id": "3",
     "titre": "MOUNTAIN",
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex, utilisation des positions et un footer",
     "date": "Avril 2026",
-    "site" : "https://la-toile-emlyon.github.io/mntn-website-romain42DEV-1/"
+    "site": "https://la-toile-emlyon.github.io/mntn-website-romain42DEV-1/",
+    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
   },
   {
     "id": "4",
     "titre": "Projet HTML/CSS",
     "desc": "Site de présentation avec un header fixe, des paragraphes, des images en flex, une partie témoignages et un footer. Site avec de l'UI",
     "date": "Avril 2026",
-    "site" : "https://la-toile-emlyon.github.io/ste-assignment-html-css-s2-2026-romain42DEV/"
+    "site": "https://la-toile-emlyon.github.io/ste-assignment-html-css-s2-2026-romain42DEV/",
+    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
   }
 ]
