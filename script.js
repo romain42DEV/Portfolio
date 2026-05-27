@@ -19,7 +19,7 @@ function genererCartesProjet(tableauProjets){
     // Parcourt chaque objet du tableau
     tableauProjets.forEach(projet => {
 
-        // Ajoute une carte projet dans le conteneur HTML sur l'index
+        /* Ajoute une carte projet dans le conteneur HTML sur l'index
         document.querySelector("#container-projet-cards").innerHTML += 
         `
         <!-- lien vers la page détail du projet -->
@@ -36,7 +36,7 @@ function genererCartesProjet(tableauProjets){
             <p>${projet.date}</p>
 
         </a>
-        `
+        `*/
         
     });
 }

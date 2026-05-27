@@ -26,18 +26,44 @@ function genererContenuPage(tableauDeProjets) {
             // Injecte le contenu du projet dans la page HTML
             document.querySelector("#containerInfosProjet").innerHTML += `
         
-            <div>
+            <section class="hero container">
+                <a href="index.html" class="decoration-none mb-10 flex gap-12 align-center retour-btn">
+                    <i class="ph-fill ph-arrow-circle-left arrow"></i> Retour
+                </a>
+                <h2>Site web : ${projet.titre}</h2>
+            </section>
 
-                <!-- Titre du projet -->
-                <h1>${projet.titre}</h1>
+            <section class="project-content container flex">
 
-                <!-- Description -->
-                <p>${projet.desc}</p>
+                <!-- gauche -->
+                <section class="colonne-gauche large-4 small-12">
 
-                <!-- Date -->
-                <p>${projet.date}</p>
+                    <p> <span class="bold">Commanditaires :</span> Projet de formation</p>
 
-            </div>
+                    <p class="mt-30">
+                        <span class="bold">Mission :</span> ${projet.desc}</p>
+
+                        <br>
+                    <p class="bold">${projet.date}</p>
+
+                    <a href="${projet.site}" class="decoration-none bold mt-50"
+                        target="_blank">Visiter le site ↗
+                    </a>
+
+                </section>
+
+                <!-- droite -->
+                <section class="large-8  flex-column align-center image-container small-12 ">
+                    <img src="asset/mockup-monochrome.png" alt="" class="large-8 mb-30 image-projet small-10">
+                    <img src="asset/mockup-monochrome-page2.png" alt="" class="large-8 mb-30 image-projet small-10">
+                </section>
+
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <img class="lightbox-img" id="lightboxImg">
+                </div>
+
+            </section>
             `
         }
 
