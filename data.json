@@ -13,7 +13,7 @@
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex, une partie témoignages et un footer",
     "date": "Avril 2026",
     "site": "https://romain42dev.github.io/interno-romain/",
-    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
+    "image": ["mockup-interno.png", "mockup-interno-temoignages.png","mockup-interno-projets.png"]
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex, utilisation des positions et un footer",
     "date": "Avril 2026",
     "site": "https://la-toile-emlyon.github.io/mntn-website-romain42DEV-1/",
-    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
+    "image": ["mockup-mountain.png", "mockup-mountain-etapes.png"]
   },
   {
     "id": "4",
@@ -29,6 +29,6 @@
     "desc": "Site de présentation avec un header fixe, des paragraphes, des images en flex, une partie témoignages et un footer. Site avec de l'UI",
     "date": "Avril 2026",
     "site": "https://la-toile-emlyon.github.io/ste-assignment-html-css-s2-2026-romain42DEV/",
-    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
+    "image": ["mockup-architecture.png", "mockup-architecture-prestations.png"]
   }
 ]
