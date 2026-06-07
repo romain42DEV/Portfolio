@@ -19,6 +19,7 @@ header {
     align-items: center;
     padding: 20px 50px 20px 80px;
     background-color: grey;
+    z-index: 100;
 }
 
 ul {
@@ -276,6 +277,32 @@ article {
 
 .border {
     border: 1px solid black;
+}
+
+
+
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
