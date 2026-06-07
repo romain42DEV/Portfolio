@@ -5,7 +5,7 @@
     "desc": "Site de présentation avec un header fixe, un hero, des paragraphes, des images en flex et un footer",
     "date": "Mars 2026",
     "site": "https://romain42dev.github.io/monochrome/",
-    "image": ["mockup-monochrome.png", "mockup-monochrome-page2.png"]
+    "image": ["mockup-monochrome2.png", "mockup-monochrome2-page2.png"]
   },
   {
     "id": "2",
