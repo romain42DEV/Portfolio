@@ -304,6 +304,14 @@ article {
     object-fit: cover;
 }
 
+.swiper-button-prev{
+    color: rgba(25, 178, 220, 0.683) !important;
+}
+
+.swiper-button-next{
+    color: rgba(25, 178, 220, 0.683) !important;
+}
+
 
 
 
