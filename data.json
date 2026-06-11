@@ -30,5 +30,37 @@
     "date": "Avril 2026",
     "site": "https://la-toile-emlyon.github.io/ste-assignment-html-css-s2-2026-romain42DEV/",
     "image": ["mockup-architecture.png", "mockup-architecture-prestations.png"]
+  },
+  {
+    "id": "5",
+    "titre": "Météo",
+    "desc": "Site web Météo, la météo qu'il vous faut, elle vous indique le temps qu'il fait en ce moment peut importe votre géolocalisation avec un caroussel pour les jours à venir, fonctionnent avec une API",
+    "date": "Mai 2026",
+    "site": "https://romain42dev.github.io/meteo-latoile-version-etudiants/",
+    "image": ["météo.png"]
+  },
+   {
+    "id": "6",
+    "titre": "Application de Musculation",
+    "desc": "Application faite sur Figma, cette application vous motivera pour faire du sport sous formes de défis tout en s'amusant",
+    "date": "Mai 2026",
+    "site": "",
+    "image": ["muscu.png"]
+  },
+   {
+    "id": "7",
+    "titre": "To-do-list",
+    "desc": "Site web de To-do-list, vous pouvez ajouter, modifier ou supprimer une tache, fonctionnent avec une base de données, utilisation du terminal et du langage EJS",
+    "date": "Mai 2026",
+    "site": "",
+    "image": ["Serveur.png", "todo.png"]
+  },
+   {
+    "id": "8",
+    "titre": "TouBon",
+    "desc": "Site web d'une pâtisserie, fonctionne avec un fichier JSON pour les produits et pour l'identité du site, il y aussi un carrousel pour les témoignages mais aussi un pannier pour acheter vos produits, le header qui changent de couleur au scroll de la page et un bouton qui chosira pour vous le meilleur produit.",
+    "date": "Mai 2026",
+    "site": "https://romain42dev.github.io/TouBon-guironnet-romain/",
+    "image": ["mockup-patisserie.png"]
   }
 ]
