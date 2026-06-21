@@ -294,7 +294,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
 }
 
 .swiper-slide img {
@@ -302,17 +302,17 @@ article {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    perspective: 2000px !important;
 }
 
 .swiper-button-prev{
     color: rgba(25, 178, 220, 0.683) !important;
+    left: -10px !important;
 }
 
 .swiper-button-next{
     color: rgba(25, 178, 220, 0.683) !important;
+    right: -10px !important;
 }
-
 
 
 
