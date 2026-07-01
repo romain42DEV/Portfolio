@@ -57,6 +57,7 @@ function genererContenuPage(tableauDeProjets) {
                     <img src="asset/${projet.image[0]}" alt="" class="large-8 mb-30 image-projet small-10">
                     <img src="asset/${projet.image[1]}" alt="" class="large-8 mb-30 image-projet small-10">
                     <img src="asset/${projet.image[2]}" alt="" class="large-8 mb-30 image-projet small-10">
+                    <img src="asset/${projet.image[3]}" alt="" class="large-8 mb-30 image-projet small-10">
                 </section>
 
                 <div id="lightbox" class="lightbox">

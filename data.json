@@ -62,5 +62,37 @@
     "date": "Mai 2026",
     "site": "https://romain42dev.github.io/TouBon-guironnet-romain/",
     "image": ["mockup-patisserie.png"]
+  },
+   {
+    "id": "9",
+    "titre": "Plantopia",
+    "desc": "Application faite sur Figma, une applicatiotion qui permet d'apprendre les espèces de plantes tout en s'amusant",
+    "date": "Juin 2026",
+    "site": "https://la-toile-emlyon.github.io/p3-ste-2026-s2-romain42DEV/",
+    "image": ["mockup-accueil-plantopia.png", "mockup-defis-plantopia.png", "mockup-floredex-plantopia.png", "mockup-classement-plantopia.png"]
+  },
+   {
+    "id": "10",
+    "titre": "Fake Store",
+    "desc": "Site e-commerce fait avec une API",
+    "date": "Mai 2026",
+    "site": "https://ludivineboc.github.io/fake-store-api/",
+    "image": []
+  },
+   {
+    "id": "11",
+    "titre": "Ti Chef",
+    "desc": "Site web de recettes de cuisine fait avec une API",
+    "date": "Juin 2026",
+    "site": "",
+    "image": []
+  },
+   {
+    "id": "12",
+    "titre": "Challenges",
+    "desc": "Site web regrpoupant plusieurs challenges faits en Javascript",
+    "date": "Juin 2026",
+    "site": "https://nico-on-web.github.io/challengesv2/index.html",
+    "image": []
   }
 ]
